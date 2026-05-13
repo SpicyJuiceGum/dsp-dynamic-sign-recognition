@@ -1,0 +1,52 @@
+IPNHandDataset: 1338 gesture clips from 148 videos
+  id= 2  B0A — Pointing (one finger)          745 clips
+  id= 6  G03 — Throw up                       148 clips
+  id= 7  G04 — Throw down                     149 clips
+  id= 9  G06 — Throw right                    148 clips
+  id=10  G07 — Open twice                     148 clips
+
+Split: 1071 train / 267 val
+Train class counts: {'B0A — Pointing (one finger)': 616, 'G03 — Throw up': 114, 'G04 — Throw down': 115, 'G06 — Throw right': 116, 'G07 — Open twice': 110}
+Backbone fully frozen — only training classifier.
+Epoch   1/60  train_loss=1.6232  train_acc=29.97%  val_loss=1.3619  val_acc=61.05%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=61.05%)
+Epoch   2/60  train_loss=0.9815  train_acc=68.81%  val_loss=1.1700  val_acc=82.02%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=82.02%)
+Epoch   3/60  train_loss=0.5827  train_acc=87.11%  val_loss=1.2151  val_acc=80.15%
+Epoch   4/60  train_loss=0.5245  train_acc=92.53%  val_loss=1.0410  val_acc=88.39%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=88.39%)
+Epoch   5/60  train_loss=0.4274  train_acc=94.77%  val_loss=1.3408  val_acc=88.39%
+Epoch   6/60  train_loss=0.3247  train_acc=97.01%  val_loss=1.5316  val_acc=90.64%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=90.64%)
+Epoch   7/60  train_loss=0.4064  train_acc=97.11%  val_loss=1.5256  val_acc=89.51%
+Epoch   8/60  train_loss=0.3481  train_acc=97.11%  val_loss=1.3214  val_acc=88.39%
+Epoch   9/60  train_loss=0.3681  train_acc=98.04%  val_loss=1.3389  val_acc=91.39%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=91.39%)
+Epoch  10/60  train_loss=0.3816  train_acc=97.67%  val_loss=1.1451  val_acc=93.26%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=93.26%)
+Epoch  11/60  train_loss=0.3180  train_acc=98.97%  val_loss=1.3477  val_acc=90.26%
+Epoch  12/60  train_loss=0.2884  train_acc=99.07%  val_loss=1.4422  val_acc=90.64%
+Epoch  13/60  train_loss=0.3060  train_acc=99.44%  val_loss=1.2777  val_acc=89.51%
+Epoch  14/60  train_loss=0.2744  train_acc=99.53%  val_loss=1.1855  val_acc=92.51%
+Epoch  15/60  train_loss=0.3202  train_acc=99.16%  val_loss=1.3007  val_acc=89.51%
+Epoch  16/60  train_loss=0.2645  train_acc=99.53%  val_loss=1.2079  val_acc=93.63%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=93.63%)
+Epoch  17/60  train_loss=0.2234  train_acc=99.72%  val_loss=1.2325  val_acc=94.38%
+  ✓ Checkpoint saved → checkpoints\best_model.pt  (val_acc=94.38%)
+Epoch  18/60  train_loss=0.3422  train_acc=99.35%  val_loss=1.2184  val_acc=93.63%
+Epoch  19/60  train_loss=0.2291  train_acc=99.81%  val_loss=1.3149  val_acc=92.13%
+Epoch  20/60  train_loss=0.2468  train_acc=99.72%  val_loss=1.3449  val_acc=91.39%
+Epoch  21/60  train_loss=0.2085  train_acc=99.53%  val_loss=1.2442  val_acc=92.51%
+Epoch  22/60  train_loss=0.1609  train_acc=99.72%  val_loss=1.4290  val_acc=91.01%
+Epoch  23/60  train_loss=0.2773  train_acc=99.81%  val_loss=1.2602  val_acc=92.13%
+Epoch  24/60  train_loss=0.2432  train_acc=99.81%  val_loss=1.3251  val_acc=92.13%
+Epoch  25/60  train_loss=0.2681  train_acc=99.72%  val_loss=1.1394  val_acc=94.01%
+Epoch  26/60  train_loss=0.2706  train_acc=99.53%  val_loss=1.2570  val_acc=92.51%
+Epoch  27/60  train_loss=0.1828  train_acc=99.72%  val_loss=1.1926  val_acc=93.26%
+  Early stop at epoch 27 — no val_acc improvement for 10 epochs. Best: 94.38%
+
+Calibrating temperature on val set ...
+Optimal temperature: T = 1.1212  (softens predictions)
+Temperature saved to checkpoint.
+
+Training complete.
