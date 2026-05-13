@@ -1,6 +1,6 @@
 # Continuous Gesture Signal Classification via Triggered Spatial Extraction and Temporal Attention
 
-### Authors
+## Authors
 **Rhiane Miguel Veron Dalumpines**
 
 **Niño Renzonald Driz**
